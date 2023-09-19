@@ -36,9 +36,16 @@ This assignment is broken down into the following tasks:
   - Create the first bar chart with the Pandas DataFrame.plot() method.
   - Create the second bar chart with Matplotlib's pyplot methods.
 
+<img width="662" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/122236d9-db0e-40a7-a75e-f520a16c6558">
+<img width="700" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/619460a0-bf82-4a29-a9ae-e90a887f7c7d">
+
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
   - Create the first pie chart with the Pandas DataFrame.plot() method.
   - Create the second pie chart with Matplotlib's pyplot methods.
+
+<img width="335" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/25178fff-1a3e-4fc9-839f-4a8118f03489">
+<img width="277" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/e0395065-dbd8-4d55-bf35-603fe1b9c760">
+
 
 ## Calculate Quartiles, Find Outliers, and Create a Box Plot
 1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
@@ -47,12 +54,22 @@ This assignment is broken down into the following tasks:
   - Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
   - Determine outliers by using the upper and lower bounds, and then print the results.
 
+<img width="384" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/2ff0debc-f7fe-43ac-be5b-1a0651ce8a7c">
+<img width="389" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/064445e0-b95b-4cc9-8139-87afbef55988">
+<img width="394" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/4181fa5e-f6a2-4105-89ea-21f3b78cd5c9">
+<img width="402" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/0ba02848-8e99-402c-8005-3dd057184ac8">
+
+
 2. Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
 
 ## Create a Line Plot and a Scatter Plot
 1. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+<img width="442" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/e1128687-d3e1-432f-9449-b3559cdac967">
+
 2. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+<img width="461" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/ab814762-bec3-46dc-a68d-258696034396">
 
 ## Calculate Correlation and Regression
 1. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 2. Plot the linear regression model on top of the previous scatter plot.
+<img width="730" alt="image" src="https://github.com/taschaef/Data_Visualization_With_Pandas_And_Matplotlib/assets/124079708/6a7db269-2ea5-4865-97e9-c9ee53f534fa">
